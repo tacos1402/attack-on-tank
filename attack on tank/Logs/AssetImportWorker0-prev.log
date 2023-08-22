@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ja' Physical Memory: 7821 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/81806/Documents/メディア表現/attack on tank
+C:/gameProjects/attack-on-tank/attack on tank
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53406
-Successfully changed project path to: C:/Users/81806/Documents/メディア表現/attack on tank
-C:/Users/81806/Documents/メディア表現/attack on tank
+58664
+Successfully changed project path to: C:/gameProjects/attack-on-tank/attack on tank
+C:/gameProjects/attack-on-tank/attack on tank
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -39,6 +39,8 @@ C:/Users/81806/Documents/メディア表現/attack on tank
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -47,11 +49,15 @@ C:/Users/81806/Documents/メディア表現/attack on tank
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 222.41 ms, found 3 plugins.
+Player connection [16152] Host "[IP] 10.0.214.37 [Port] 0 [Flags] 2 [Guid] 2915775238 [EditorId] 2915775238 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7NNNGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16152] Host "[IP] 10.0.214.37 [Port] 0 [Flags] 2 [Guid] 2915775238 [EditorId] 2915775238 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7NNNGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1838.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/81806/Documents/メディア表現/attack on tank/Assets
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/gameProjects/attack-on-tank/attack on tank/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -60,118 +66,181 @@ Direct3D:
     VRAM:     3910 MB
     Driver:   31.0.101.4255
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017653 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014423 seconds.
+- Loaded All Assemblies, in  0.533 seconds
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1235ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (495ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.051888 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\81806\Documents\メディア表現\attack on tank\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\81806\Documents\メディア表現\attack on tank\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.804 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4805ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (4308ms)
-			LoadAssemblies (1256ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (527ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (2384ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (420ms)
-				ProcessInitializeOnLoadMethodAttributes (1780ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
+- Finished resetting the current domain, in  0.363 seconds
+Domain Reload Profiling: 896ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (364ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\gameProjects\attack-on-tank\attack on tank\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\gameProjects\attack-on-tank\attack on tank\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.159 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1865ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (845ms)
+		LoadAssemblies (690ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3837.
-Memory consumption went from 123.0 MB to 122.9 MB.
-Total: 6.545400 ms (FindLiveObjects: 0.523400 ms CreateObjectMapping: 0.245600 ms MarkObjects: 5.590600 ms  DeleteObjects: 0.183700 ms)
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3570.
+Memory consumption went from 122.0 MB to 122.0 MB.
+Total: 8.557100 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.440500 ms MarkObjects: 7.302900 ms  DeleteObjects: 0.324200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14320.989612 seconds.
-  path: Assets/Geopipe/Pack01/NYBlock01
-  artifactKey: Guid(7409a576091cdd441b2d0ebe5905fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geopipe/Pack01/NYBlock01 using Guid(7409a576091cdd441b2d0ebe5905fb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ed7c79d942b953b50d1ef5f6af8e64') in 0.046342 seconds 
+  Time since last request: 18380.318234 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Materials
+  artifactKey: Guid(8a1f91aa092a84892b0fc7719f60d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Materials using Guid(8a1f91aa092a84892b0fc7719f60d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4bf57ad6a919e20f89e458288f4cd8') in 0.002977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Geopipe/Pack01
-  artifactKey: Guid(5d7ed7b0e4d9cd04480224719249a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geopipe/Pack01 using Guid(5d7ed7b0e4d9cd04480224719249a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5cde83da5577406c6a5885c15cae1') in 0.021511 seconds 
+  Time since last request: 4.417734 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-0.dae
+  artifactKey: Guid(92e729fc033fc4317bd506a9bb956011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-0.dae using Guid(92e729fc033fc4317bd506a9bb956011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087fad81372022bd40faa7bd6b48f66f') in 0.849119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Geopipe/Pack01Demo
-  artifactKey: Guid(c96bc8dff3f6b9a4e88cbfe814540ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geopipe/Pack01Demo using Guid(c96bc8dff3f6b9a4e88cbfe814540ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844f5c86e8c96852222b5ffb5b487679') in 0.019905 seconds 
+  Time since last request: 58.377757 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-1.dae
+  artifactKey: Guid(33f028b242c464458a74a1930e0b0be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-1.dae using Guid(33f028b242c464458a74a1930e0b0be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a52abbd7b398545df0644c2d88cd716') in 0.063141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 1.003338 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-2.dae
+  artifactKey: Guid(4b7aa532a1bcd48c09bea67956c24f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-2.dae using Guid(4b7aa532a1bcd48c09bea67956c24f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d54b4a7fb4c76df7a69f2af236dca5c') in 0.056784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.648406 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-3.dae
+  artifactKey: Guid(3222105df633c498c8a6a2133e1fe185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-3.dae using Guid(3222105df633c498c8a6a2133e1fe185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765a7ec06fd771640bd45b40dc51178') in 0.056979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.697359 seconds.
+  path: Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-5.dae
+  artifactKey: Guid(79ef13a1a033b485996e36a1416f5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack01/NYBlock01/Models/building-0-0-5.dae using Guid(79ef13a1a033b485996e36a1416f5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac18a88b60df6777f9b7ad12c579871') in 0.051073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3582.
+Memory consumption went from 77.3 MB to 77.3 MB.
+Total: 5.850200 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.218500 ms MarkObjects: 5.304900 ms  DeleteObjects: 0.036800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
